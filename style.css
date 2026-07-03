@@ -10,16 +10,17 @@ body {
 /* Header Styles */
 header {
   padding-bottom: 40px;
+  /* font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #143055; */
 }
 i {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 2px;
   color: #ffffff;
-}
-h2 {
-  color: #ffffff;
-  font-size: 2rem;
 }
 
 .navbar {
@@ -29,6 +30,11 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+.navbar h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -96,10 +102,44 @@ a.active:hover {
   letter-spacing: 1px;
   background: linear-gradient(90deg, #ff6a00 0%, #fbc2eb 100%);
   color: #ffffff;
-  border-radius: 30px;
+  border-radius: 28px;
   cursor: pointer;
+  /* box-shadow: 0 8px 24px #ff6a0017; */
 }
 .main-button:hover {
   color: #e0e6ed;
   background: #143055;
+}
+
+/* Features Section Styles */
+#features {
+  border-radius: 36px 36px 0 0;
+  background-color: #ffffff;
+  color: #143055;
+  padding: 60px 5vw 80px 5vw;
+  min-height: 100vh;
+  box-shadow: 0 4px 24px 0 #14305514;
+  text-align: center;
+}
+
+.feature ul {
+  gap: 18px;
+  padding: 0;
+}
+.feature-list {
+  padding-left: 12px;
+  line-height: 1.6;
+}
+#features li {
+  margin-bottom: 18px;
+  display: flex;
+  list-style: circle;
+}
+span {
+  background-color: #fbc2eb;
+  color: #143055;
+  padding: 0 8px;
+  margin: 0 10px;
+  border-radius: 4px;
+  font-weight: 700;
 }
