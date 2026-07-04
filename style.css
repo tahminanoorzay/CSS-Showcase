@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", "Roboto", Arial, sans-serif;
-  background: linear-gradient(120deg, #143055 60%, #4ca1af 100%);
+  background: linear-gradient(120deg, #143055 30%, #4ca1af 100%);
   color: #222;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
 
 /* Header Styles */
 header {
-  padding-bottom: 40px;
+  padding: 0 160px;
   /* font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ i {
 }
 
 .navbar {
-  padding: 30px 5vw;
+  padding: 0px 5vw;
   display: flex;
   gap: 38px;
   justify-content: space-between;
@@ -119,6 +119,9 @@ a.active:hover {
   padding: 60px 5vw 80px 5vw;
   min-height: 100vh;
   box-shadow: 0 4px 24px 0 #14305514;
+}
+#features h1 {
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -127,13 +130,17 @@ a.active:hover {
   padding: 0;
 }
 .feature-list {
-  padding-left: 12px;
+  padding-left: 40px;
   line-height: 1.6;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
 }
 #features li {
-  margin-bottom: 18px;
-  display: flex;
-  list-style: circle;
+  line-height: 1.6;
+  padding-left: 8px 0;
+  font-size: 1.1rem;
+  margin: 20px;
 }
 span {
   background-color: #fbc2eb;
@@ -142,4 +149,8 @@ span {
   margin: 0 10px;
   border-radius: 4px;
   font-weight: 700;
+}
+
+.icon {
+  color: #7a0e5c;
 }
