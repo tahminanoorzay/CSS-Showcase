@@ -117,10 +117,10 @@ a.active:hover {
   background-color: #ffffff;
   color: #143055;
   padding: 60px 5vw 80px 5vw;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   box-shadow: 0 4px 24px 0 #14305514;
 }
-#features h1 {
+h1 {
   text-transform: uppercase;
   text-align: center;
 }
@@ -151,6 +151,60 @@ span {
   font-weight: 700;
 }
 
-.icon {
-  color: #7a0e5c;
+/* Examples and cards Section Styles */
+#examples {
+  background-color: #f5f7fa;
+  box-shadow: 10px 0 10px 15px inset #02080f14;
+  color: #143055;
+  padding: 60px 5vw 80px 5vw;
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.cards .card1,
+.card2,
+.card3 {
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 6px 24px 0 #1430551c;
+  padding: 36px 26px 32px 26px;
+  width: 312px;
+}
+.cards h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #143055;
+}
+.cards p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+}
+.cards i {
+  color: #fbab7e;
+}
+.cards button {
+  padding: 10px 36px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: #143055;
+  color: #ffffff;
+}
+.cards button:hover {
+  color: #afafaf;
+}
+
+.hover-effect:hover {
+  cursor: pointer;
+  border: 1px solid #fbab7e;
+  box-shadow: 0 10px 30px 0 #1430551c;
 }
