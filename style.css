@@ -32,7 +32,7 @@ i {
   align-items: center;
   gap: 12px;
 }
-a {
+.nav-links a {
   color: #ffffff;
   text-decoration: none;
   padding: 8px 18px;
@@ -41,15 +41,15 @@ a {
   gap: 12px;
   border-radius: 20px;
 }
-a:hover {
+.nav-links a:hover {
   background-color: #e6dede;
   color: #2e4042;
 }
-a.active {
+.nav-links a.active {
   background-color: #ffffff;
   color: #2e4042;
 }
-a.active:hover {
+.nav-links a.active:hover {
   background-color: #e6dede;
   color: #2e4042;
 }
@@ -142,6 +142,10 @@ span {
   margin: 0 10px;
   border-radius: 4px;
   font-weight: 700;
+}
+
+#features i {
+  color: #010101;
 }
 
 /* Examples and cards Section Styles */
@@ -277,4 +281,24 @@ form div {
 }
 .fullWidthBtn {
   width: 100%;
+}
+
+/* Footer Section Styles */
+
+footer {
+  background-color: #143055;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+footer a i {
+  color: #f8a400;
+}
+footer a i:hover {
+  color: #ffffff;
+  background: none;
+}
+footer a {
+  color: #ffffff;
+  padding: 8px;
 }
