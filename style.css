@@ -162,6 +162,7 @@ span {
   text-align: center;
   gap: 30px;
   justify-content: center;
+  align-items: center;
 }
 
 .card1,
